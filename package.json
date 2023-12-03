@@ -5,9 +5,9 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
-    "start:mysql": "node --watch server-with-mysql.js",
-    "start:local": "node --watch server-with-local.js",
-    "start:mongo": "node --watch server-with-mongo.js",
+    "start:mysql": "node --watch servers/server-with-mysql.js",
+    "start:local": "node --watch servers/server-with-local.js",
+    "start:mongo": "node --watch servers/server-with-mongo.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": ["Rest-API","FL0","NodeJS","Express"],
